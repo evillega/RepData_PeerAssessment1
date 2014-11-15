@@ -13,6 +13,8 @@ Github Link: [https://github.com/evillega/RepData_PeerAssessment1](https://githu
 ```{r Retreive data}
 setwd("~/Desktop/Coursera/DataScience/5-Reproducible Research/5-ProjectAssignment_1/RepData_PeerAssessment1/RepData_PeerAssessment1")
 
+library("knitr")
+
 unzip("activity.zip")
 
 activity <- read.csv("activity.csv")
